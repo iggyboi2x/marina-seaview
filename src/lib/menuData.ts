@@ -32,7 +32,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'soups',
     title: 'Soups',
-    image: '/gallery/authentic_dish_7.png',
+    image: '/gallery_refined/authentic_dish_7.png',
     items: [
       { name: 'Olango Seafood Chowder', description: 'Creamy seafood broth, herbs, onion, celery, potatoes, fresh seafoods — served with soft roll bread', servingNote: 'To share for four' },
       { name: 'Crab Meat and Corn Soup', description: 'Cream of corn, crab meat, silken tofu, vegetables — served with soft roll bread', servingNote: 'To share for four' },
@@ -45,7 +45,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'chicken',
     title: 'Chicken',
-    image: '/gallery/authentic_dish_4.png',
+    image: '/gallery_refined/authentic_dish_4.png',
     items: [
       { name: 'Teri-Chicken', description: 'Grilled Japanese teriyaki chicken, scallion salad, roasted sesame seeds' },
       { name: 'Thai Chicken Curry', description: 'Yellow curry paste, lemongrass, eggplant, coconut milk, chicken thigh' },
@@ -57,7 +57,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'pork',
     title: 'Pork',
-    image: '/gallery/authentic_dish_8.png',
+    image: '/gallery_refined/authentic_dish_8.png',
     items: [
       { name: 'Wok Fried Pork Belly with Pineapple', description: 'Hong Kong-style pork belly, pineapple, sweet & sour sauce' },
       { name: 'Liempo Paborito', description: 'Grilled pork belly, herbs, spices, soy, calamansi, atchara, pinya salsa' },
@@ -81,7 +81,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'marina-seafood-special',
     title: 'Marina Seafood Special',
-    image: '/gallery/authentic_dish_14.png',
+    image: '/gallery_refined/authentic_dish_14.png',
     items: [
       { name: 'Baked Scallops', description: 'Cheese, béchamel, garlic butter confit, herbs & spices, golden garlic bits' },
       { name: 'Gambas Al a Jillo', description: 'Sautéed sea shrimp, mushroom, parsley, olive oil and garlic' },
@@ -108,7 +108,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'off-the-grill',
     title: 'Off-the-Grill',
-    image: '/gallery/authentic_dish_16.png',
+    image: '/gallery_refined/authentic_dish_15.png',
     items: [
       { name: 'Pork Sisig', description: 'Broiled pork mask, organic herb and spice' },
       { name: 'Tuna Panga', description: 'Grilled marinated tuna panga, atchara, native sauce, scallion salad' },
@@ -124,7 +124,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'vegetables-noodles',
     title: 'Vegetables & Noodles',
-    image: '/gallery/authentic_dish_11.png',
+    image: '/gallery_refined/authentic_dish_11.png',
     items: [
       { name: 'Pansit Espesyal', description: 'Stir-fried egg noodles, mixed seafood, meat and garden vegetables' },
       { name: 'Crispy Pansit Canton', description: 'Fried egg noodles, shrimps, chicken inasal, fish ball, quail egg, ear wood mushroom, omelet' },
@@ -153,7 +153,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'pizza',
     title: 'Pizza',
-    image: '/gallery/authentic_dish_13.png',
+    image: '/gallery_refined/authentic_dish_13.png',
     items: [
       { name: 'Margherita', description: 'Tomato fondue, fresh basil, mozzarella' },
       { name: 'Ham and Pineapple', description: 'Ham, pineapple, bell pepper, white onions, mozzarella' },
@@ -164,7 +164,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'pastabilities',
     title: 'Pastabilities',
-    image: '/gallery/authentic_dish_12.png',
+    image: '/gallery_refined/authentic_dish_12.png',
     items: [
       { name: 'Creamy Carbonara', description: 'Bacon, cream sauce, pasta' },
       { name: 'Aglio Olio', description: 'Pasta, olive oil, garlic, shrimp' },
@@ -174,7 +174,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'desserts',
     title: 'Desserts',
-    image: '/gallery/interior_9.png',
+    image: '/gallery_refined/marina_interior_8.png',
     items: [
       { name: 'Masareal Sorbetes', description: 'Cebuano masareal delicacy transformed into refreshing sorbetes' },
       { name: 'Biko Turon', description: 'Biko, banana, sweet langka, ube and latik' },

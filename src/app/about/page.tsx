@@ -13,13 +13,13 @@ export default function AboutPage() {
   const [carouselIndex, setCarouselIndex] = useState(0);
 
   const experienceImages = [
-    '/gallery/interior_1.png',
-    '/gallery/event_1.png',
-    '/gallery/interior_2.png',
-    '/gallery/event_5.png',
-    '/gallery/interior_6.png',
-    '/gallery/event_8.png',
-    '/gallery/interior_9.png'
+    '/gallery_refined/marina_interior_1.png',
+    '/gallery_refined/marina_event_1.png',
+    '/gallery_refined/marina_interior_2.png',
+    '/gallery_refined/marina_event_5.png',
+    '/gallery_refined/marina_interior_6.png',
+    '/gallery_refined/marina_event_8.png',
+    '/gallery_refined/marina_interior_8.png'
   ];
 
   useEffect(() => {
@@ -53,10 +53,13 @@ export default function AboutPage() {
               <ScrollReveal variant="fadeUp" delay={0.2} className="relative">
                 <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
                   <Image 
-                    src="/gallery/seaview_1.png" 
+                    src="/gallery_refined/marina_interior_8.png" 
                     alt="Marina Seaview Heritage" 
                     fill 
-                    className="object-cover scale-105" 
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    quality={90}
+                    priority
+                    className="object-cover" 
                   />
                   <div className="absolute inset-4 border border-white/30 rounded-xl" />
                 </div>
@@ -92,7 +95,7 @@ export default function AboutPage() {
           >
             <div className="relative w-full h-full">
               <Image
-                src="/gallery/interior_1.png"
+                src="/gallery_refined/marina_interior_1.png"
                 alt="Marina Seaview Story Interior"
                 fill
                 className="object-cover"
@@ -141,14 +144,22 @@ export default function AboutPage() {
             {/* Experience Carousel - Scaled down height to prevent blur */}
             <div className="flex-1 w-full">
               <ScrollReveal className="relative group" variant="fadeIn" delay={0.3}>
-                <div className="relative h-[350px] md:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl bg-primary-dark">
+                <div className="relative aspect-[4/3] md:aspect-[16/10] lg:aspect-video rounded-3xl overflow-hidden shadow-2xl bg-primary-dark">
                   <div 
                     className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" 
                     style={{ transform: `translateX(-${carouselIndex * 100}%)` }}
                   >
                     {experienceImages.map((src, i) => (
                       <div key={i} className="min-w-full h-full relative">
-                        <Image src={src} alt={`Marina Experience ${i + 1}`} fill className="object-cover brightness-[0.95] contrast-[1.05]" />
+                        <Image 
+                          src={src} 
+                          alt={`Marina Experience ${i + 1}`} 
+                          fill 
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw, 50vw"
+                          quality={90}
+                          priority={i === 0}
+                          className="object-cover brightness-[0.95] contrast-[1.05]" 
+                        />
                       </div>
                     ))}
                   </div>
@@ -228,7 +239,7 @@ export default function AboutPage() {
           </ScrollReveal>
           <ScrollReveal className="w-full md:w-1/2" variant="fadeUp" delay={0.2}>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-              <Image src="/gallery/event_9.png" alt="Dahlia Chocolate Pairing" fill className="object-cover" />
+              <Image src="/gallery_refined/marina_event_9.png" alt="Dahlia Chocolate Pairing" fill className="object-cover" />
             </div>
           </ScrollReveal>
         </div>

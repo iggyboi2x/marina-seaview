@@ -24,11 +24,13 @@ export default function HomePage() {
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/gallery/seaview_5.png"
+            src="/gallery_refined/marina_seaview_5.png"
             alt="Marina Seaview"
             fill
+            sizes="100vw"
+            quality={95}
             priority
-            className="object-cover scale-105 animate-slow-zoom"
+            className="object-cover"
           />
           {/* Artistic Scrim: Blur + Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-ocean/60 via-ocean/40 to-ocean/70 backdrop-blur-[2px]" />
@@ -149,14 +151,22 @@ export default function HomePage() {
 
           <div className="lg:w-1/2 w-full">
             <ScrollReveal variant="fadeIn" delay={0.4}>
-              <div className="relative h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative aspect-[4/3] md:aspect-[16/10] lg:aspect-square xl:aspect-[16/10] max-h-[600px] rounded-3xl overflow-hidden shadow-2xl bg-primary-dark">
                 <div 
                   className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" 
                   style={{ transform: `translateX(-${carouselIndex * 100}%)` }}
                 >
-                  {['/gallery/seaview_5.png', '/gallery/interior_1.png', '/gallery/dish_12.png', '/gallery/seaview_1.png', '/gallery/interior_6.png'].map((src, i) => (
+                  {['/gallery_refined/marina_seaview_5.png', '/gallery_refined/marina_interior_1.png', '/gallery_refined/authentic_dish_12.png', '/gallery_refined/marina_seaview_1.png', '/gallery_refined/marina_interior_6.png'].map((src, i) => (
                     <div key={i} className="min-w-full h-full relative">
-                      <Image src={src} alt="Marina Experience" fill className="object-cover" />
+                      <Image 
+                        src={src} 
+                        alt="Marina Experience" 
+                        fill 
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        quality={90}
+                        priority={i === 0}
+                        className="object-cover" 
+                      />
                     </div>
                   ))}
                 </div>
@@ -187,9 +197,9 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Fresh Seafood Platter", img: "/gallery/authentic_dish_14.png" },
-              { title: "Crispy Pata Specialty", img: "/gallery/authentic_dish_5.png" },
-              { title: "Traditional Set Menu", img: "/gallery/authentic_dish_11.png" }
+              { title: "Fresh Seafood Platter", img: "/gallery_refined/authentic_dish_14.png" },
+              { title: "Crispy Pata Specialty", img: "/gallery_refined/authentic_dish_5.png" },
+              { title: "Traditional Set Menu", img: "/gallery_refined/authentic_dish_11.png" }
             ].map((dish, i) => (
               <ScrollReveal key={i} delay={i * 0.15} variant="scaleReveal">
                 <div className="group relative h-[400px] overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all">

@@ -68,7 +68,7 @@ export default function GalleryPage() {
                 <ScrollReveal variant="fadeUp" delay={0.2} className="relative">
                   <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-ivory">
                     <Image 
-                      src="/gallery/seaview_3.png" 
+                      src="/gallery_refined/marina_interior_2.png" 
                       alt="Marina Seaview Atmosphere" 
                       fill 
                       className="object-cover scale-105" 

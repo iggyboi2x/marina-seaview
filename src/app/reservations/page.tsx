@@ -104,7 +104,7 @@ function ReservationsContent() {
               <ScrollReveal variant="fadeUp" delay={0.2} className="relative">
                 <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
                   <Image 
-                    src="/gallery/interior_6.png" 
+                    src="/gallery_refined/marina_interior_6.png" 
                     alt="Reservations Ambiance" 
                     fill 
                     className="object-cover scale-105" 

@@ -34,10 +34,13 @@ export default function ContactPage() {
                 <ScrollReveal variant="fadeUp" delay={0.2} className="relative">
                   <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
                     <Image 
-                      src="/gallery/seaview_1.png" 
+                      src="/gallery_refined/marina_interior_4.png" 
                       alt="Contact Marina Seaview" 
                       fill 
-                      className="object-cover scale-105" 
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      quality={90}
+                      priority
+                      className="object-cover" 
                     />
                     <div className="absolute inset-4 border border-white/20 rounded-xl" />
                   </div>

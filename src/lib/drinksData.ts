@@ -16,7 +16,7 @@ export const drinksData: DrinkCategory[] = [
   {
     id: 'fresh-juices',
     title: 'Fresh Juices',
-    image: '/gallery/seaview_4.png',
+    image: '/gallery_refined/marina_seaview_4.png',
     items: [
       { name: 'Calamansi Juice', price: '₱240' },
       { name: 'Watermelon / Pineapple / Buko / Mango / Green Mango / Four Seasons', price: '₱260' },
@@ -97,7 +97,7 @@ export const drinksData: DrinkCategory[] = [
   {
     id: 'signature-cocktails',
     title: 'Signature Cocktails',
-    image: '/gallery/seaview_2.png',
+    image: '/gallery_refined/marina_seaview_2.png',
     items: [
       { name: 'Khaleesi', description: 'Tequila infused red chili, mezcal, lime, passion fruit, sugar syrup, dried chili, chili flakes', price: '₱420', isNew: true },
       { name: 'Molten Spice', description: 'Bayou spice rum, honey & cinnamon cordial, lemon, chamomile tea, lemon & chamomile caviar, tuile', price: '₱420', isNew: true },

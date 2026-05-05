@@ -43,10 +43,13 @@ export default function MenuPage() {
               <ScrollReveal variant="fadeUp" delay={0.2} className="relative">
                 <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
                   <Image 
-                    src="/gallery/dish_14.png" 
+                    src="/gallery_refined/authentic_dish_9.png" 
                     alt="Signature Menu Selection" 
                     fill 
-                    className="object-cover scale-105" 
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    quality={90}
+                    priority
+                    className="object-cover" 
                   />
                   <div className="absolute inset-4 border border-white/30 rounded-xl" />
                 </div>
@@ -287,7 +290,7 @@ export default function MenuPage() {
             <div id="spirits-wine" className="scroll-mt-40">
               <ScrollReveal>
                 <div className="bg-primary-dark p-8 md:p-12 rounded-2xl text-center text-white relative overflow-hidden">
-                  <div className="absolute inset-0 opacity-20 bg-[url('/gallery/interior_3.png')] bg-cover bg-center" />
+                  <div className="absolute inset-0 opacity-20 bg-[url('/gallery_refined/marina_interior_3.png')] bg-cover bg-center" />
                   <div className="relative z-10">
                     <h2 className="font-display text-4xl mb-6">Spirits & Wine</h2>
                     <p className="font-body text-lg mb-4 text-off-white">See our full bar list</p>
