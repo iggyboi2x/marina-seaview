@@ -286,12 +286,12 @@ export default function HomePage() {
 
 function EventPreview() {
   const venues = [
-    { name: "Seaview Pavilion", img: "/venue/Seaview Pavillion.webp" },
-    { name: "The Ballroom", img: "/venue/Seaview Ballroom.webp" },
-    { name: "Glass House", img: "/venue/Seaview Glass House.webp" },
-    { name: "Meeting Room", img: "/venue/Seaview Meeting Room.webp" },
-    { name: "Main Dining", img: "/venue/Seaview Main Dining.webp" },
-    { name: "The Salty Wharf", img: "/venue/Seaview The Salty Wharf.webp" }
+    { name: "Seaview Pavilion", img: "/venue_refined/refined_seaview_pavillion.png" },
+    { name: "The Ballroom", img: "/venue_refined/refined_seaview_ballroom.png" },
+    { name: "Glass House", img: "/venue_refined/refined_seaview_glasshouse.png" },
+    { name: "Meeting Room", img: "/venue_refined/refined_seaview_meetingroom.png" },
+    { name: "Main Dining", img: "/venue_refined/refined_seaview_maindining.png" },
+    { name: "The Salty Wharf", img: "/venue_refined/refined_seaview_thesaltywharf.png" }
   ];
 
   const [activeVenue, setActiveVenue] = React.useState(venues[1]);

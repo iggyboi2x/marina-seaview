@@ -31,9 +31,7 @@ export const metadata: Metadata = {
   title: { default: 'Marina Seaview Restaurant', template: '%s | Marina Seaview' },
   description: 'Your seaside dining destination in Lapu-Lapu City, Cebu. Exceptional seafood, breathtaking ocean views, and premier event spaces for weddings, birthdays & corporate events.',
   keywords: ['Marina Seaview', 'restaurant Lapu-Lapu', 'Cebu seafood', 'wedding venue Cebu', 'MEPZ restaurant', 'Cebu fine dining'],
-  icons: {
-    icon: '/logo/marina_logo2.png',
-  },
+
   openGraph: { locale: 'en_PH', images: [{ url: '/og-image.jpg', width: 1200, height: 630 }] },
 };
 

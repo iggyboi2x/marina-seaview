@@ -90,10 +90,8 @@ export default function EventsPage() {
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full flex items-center space-x-2 shadow-sm">
-                    <Users size={14} className="text-primary" />
-                    <span className="font-body text-xs font-bold text-text-primary">{space.capacity}</span>
-                  </div>
+                  {/* Capacity badge removed as per request */}
+
                 </div>
                 <div className="p-8 flex flex-col flex-1">
                   <h3 className="font-display text-3xl text-text-primary mb-4">{space.name}</h3>
