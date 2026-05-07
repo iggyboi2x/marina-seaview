@@ -32,7 +32,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'soups',
     title: 'Soups',
-    image: '/gallery_refined/authentic_dish_9.png',
+    image: '/gallery_refined/authentic_dish_18.png',
     items: [
       { name: 'Olango Seafood Chowder', description: 'Creamy seafood broth, herbs, onion, celery, potatoes, fresh seafoods — served with soft roll bread', servingNote: 'To share for four' },
       { name: 'Crab Meat and Corn Soup', description: 'Cream of corn, crab meat, silken tofu, vegetables — served with soft roll bread', servingNote: 'To share for four' },
