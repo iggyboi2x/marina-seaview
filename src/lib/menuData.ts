@@ -32,7 +32,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'soups',
     title: 'Soups',
-    image: '/gallery_refined/authentic_dish_7.png',
+    image: '/gallery_refined/authentic_dish_9.png',
     items: [
       { name: 'Olango Seafood Chowder', description: 'Creamy seafood broth, herbs, onion, celery, potatoes, fresh seafoods — served with soft roll bread', servingNote: 'To share for four' },
       { name: 'Crab Meat and Corn Soup', description: 'Cream of corn, crab meat, silken tofu, vegetables — served with soft roll bread', servingNote: 'To share for four' },
@@ -45,7 +45,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'chicken',
     title: 'Chicken',
-    image: '/gallery_refined/authentic_dish_4.png',
+    image: '/gallery_refined/authentic_dish_7.png',
     items: [
       { name: 'Teri-Chicken', description: 'Grilled Japanese teriyaki chicken, scallion salad, roasted sesame seeds' },
       { name: 'Thai Chicken Curry', description: 'Yellow curry paste, lemongrass, eggplant, coconut milk, chicken thigh' },
@@ -70,7 +70,7 @@ export const menuData: MenuCategory[] = [
   {
     id: 'beef',
     title: 'Beef',
-    image: '/gallery_refined/authentic_dish_2.png',
+    image: '/gallery_refined/authentic_dish_17.png',
     items: [
       { name: 'Bistek Tagalog', description: 'Local beef simmered in soy sauce, vinegar, calamansi' },
       { name: 'Beef Stroganoff', description: 'U.S. Angus beef, onion, garlic, mushrooms, cream — served with steamed rice' },

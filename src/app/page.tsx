@@ -24,7 +24,7 @@ export default function HomePage() {
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/gallery_refined/marina_seaview_5.png"
+            src="/hero/hero_refined.png"
             alt="Marina Seaview"
             fill
             sizes="100vw"
@@ -32,8 +32,8 @@ export default function HomePage() {
             priority
             className="object-cover"
           />
-          {/* Artistic Scrim: Blur + Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-ocean/60 via-ocean/40 to-ocean/70 backdrop-blur-[2px]" />
+          {/* Overlay: Gradient Scrim (no blur — keeps image sharp) */}
+          <div className="absolute inset-0 bg-gradient-to-b from-ocean/55 via-ocean/35 to-ocean/65" />
         </div>
 
         {/* Hero Content Stack */}
